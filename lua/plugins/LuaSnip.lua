@@ -4,7 +4,7 @@ return {
     require "plugins.configs.luasnip"(plugin, opts)
     -- load snippets paths
     require("luasnip.loaders.from_vscode").lazy_load {
-      paths = { "~/.config/astronvim_v4/lua/snippets" },
+      paths = { "~/.config/astronvim_v4/lua/snippets/" },
     }
   end,
 }
