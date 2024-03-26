@@ -1,10 +1,10 @@
 return {
   "L3MON4D3/LuaSnip",
   config = function(plugin, opts)
-    require "plugins.configs.luasnip"(plugin, opts)
+    require "astronvim.plugins.configs.luasnip"(plugin, opts)
     -- load snippets paths
     require("luasnip.loaders.from_vscode").lazy_load {
-      paths = { "~/.config/astronvim_v4/lua/snippets/" },
+      paths = { vim.fn.stdpath "config" .. "/snippets" },
     }
   end,
 }
