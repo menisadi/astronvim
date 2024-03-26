@@ -1,10 +1,6 @@
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
 
-local lp = require "luasnip"
-local fl = require "flash"
-local td = require "todo-comments"
-
 ---@type LazySpec
 return {
   "AstroNvim/astrocore",
@@ -47,7 +43,7 @@ return {
       n = {
         -- second key is the lefthand side of the map
         ["<Leader>fl"] = {
-          function() fl.jump() end,
+          function() require("flash").jump() end,
           desc = "Flash jump",
           remap = true,
         },
@@ -58,12 +54,12 @@ return {
           desc = "Generate annotation using Neogen",
         },
         ["[c"] = {
-          function() td.jump_prev() end,
+          function() require("todo-comments").jump_prev() end,
           desc = "Previous todo comment",
           silent = true,
         },
         ["]c"] = {
-          function() td.jump_next() end,
+          function() require("todo-comments").jump_next() end,
           desc = "Next todo comment",
           silent = true,
         },
@@ -83,21 +79,21 @@ return {
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
       },
       i = {
-        ["<C-K>"] = { function() lp.expand() end, silent = true },
-        ["<C-L>"] = { function() lp.jump(1) end, silent = true },
-        ["<C-J>"] = { function() lp.jump(-1) end, silent = true },
+        ["<C-K>"] = { function() require("luasnip").expand() end, silent = true },
+        ["<C-L>"] = { function() require("luasnip").jump(1) end, silent = true },
+        ["<C-J>"] = { function() require("luasnip").jump(-1) end, silent = true },
         ["<C-E>"] = {
           function()
-            if lp.choice_active() then require("luasnip").change_choice(1) end
+            if require("luasnip").choice_active() then require("luasnip").change_choice(1) end
           end,
           silent = true,
         },
       },
       x = {
-        ["<Leader>fl"] = { function() fl.jump() end, desc = "Flash jump", remap = true },
+        ["<Leader>fl"] = { function() require("flash").jump() end, desc = "Flash jump", remap = true },
       },
       o = {
-        ["<Leader>fl"] = { function() fl.jump() end, desc = "Flash jump", remap = true },
+        ["<Leader>fl"] = { function() require("flash").jump() end, desc = "Flash jump", remap = true },
       },
       t = {
         -- setting a mapping to false will disable it
