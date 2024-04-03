@@ -43,11 +43,11 @@ return {
       -- first key is the mode
       n = {
         -- second key is the lefthand side of the map
-        ["<Leader>fl"] = {
-          function() require("flash").jump() end,
-          desc = "Flash jump",
-          remap = true,
-        },
+        -- ["<Leader>fl"] = {
+        --   function() require("flash").jump() end,
+        --   desc = "Flash jump",
+        --   remap = true,
+        -- },
         ["<Leader>lc"] = {
           function() require("neogen").generate() end,
           noremap = true,
@@ -91,10 +91,10 @@ return {
         },
       },
       x = {
-        ["<Leader>fl"] = { function() require("flash").jump() end, desc = "Flash jump", remap = true },
+        -- ["<Leader>fl"] = { function() require("flash").jump() end, desc = "Flash jump", remap = true },
       },
       o = {
-        ["<Leader>fl"] = { function() require("flash").jump() end, desc = "Flash jump", remap = true },
+        -- ["<Leader>fl"] = { function() require("flash").jump() end, desc = "Flash jump", remap = true },
       },
       t = {
         -- setting a mapping to false will disable it
