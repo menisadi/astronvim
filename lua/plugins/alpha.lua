@@ -7,7 +7,7 @@ return {
       opts.button("SPC f f", "󰐱 Find file", "<CMD> Telescope find_files <CR>"),
       opts.button("SPC f z", " Zoxide", "<CMD> Telescope zoxide list <CR>"),
       opts.button("SPC f o", "󰋚 Recentls", "<CMD> Telescope oldfiles <CR>"),
-      opts.button("SPC S l", "󰕇 Last session", ":echo not working yet <CR>"),
+      -- opts.button("SPC S l", "󰕇 Last session", ":echo not working yet <CR>"),
       opts.button("q", "󰅚  Quit", ":qa<CR>"),
     }
     opts.section.header.val = {
