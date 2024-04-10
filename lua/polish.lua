@@ -2,6 +2,12 @@
 -- things like custom filetypes. This just pure lua so anything that doesn't
 -- fit in the normal config locations above can go here
 
+-- TODO: is this the right place for this Neovide config?
+if vim.g.neovide then
+  vim.g.neovide_window_blurred = true
+  vim.g.neovide_scale_factor = 1.5
+end
+
 -- Set up custom filetypes
 vim.filetype.add {
   extension = {
