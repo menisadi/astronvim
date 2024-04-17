@@ -3,9 +3,12 @@ return {
     "stevearc/aerial.nvim",
     opts = {
       filter_kind = {
-        "Class",
-        "Function",
-        "Method",
+        markdown = false,
+        ["_"] = {
+          "Class",
+          "Function",
+          "Method",
+        },
       },
     },
   },

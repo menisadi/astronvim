@@ -6,6 +6,9 @@
 return {
   { "AstroNvim/astrocommunity" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.python-ruff" },
+  { import = "astrocommunity.pack.markdown" },
+  -- { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.editing-support.nvim-treesitter-endwise" },
   { import = "astrocommunity.motion.nvim-surround" },
