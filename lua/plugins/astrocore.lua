@@ -50,6 +50,14 @@ return {
         --   desc = "Flash jump",
         --   remap = true,
         -- },
+        ["<leader>aj"] = {
+          "o# %%<CR>",
+          desc = "New 'cell'",
+        },
+        ["<Leader>am"] = {
+          "o# %% [markdown]<CR># ",
+          desc = "New Markdown 'cell'",
+        },
         ["<Leader>Sz"] = {
           function()
             local stats = require("lazy").stats()
