@@ -50,11 +50,11 @@ return {
         --   desc = "Flash jump",
         --   remap = true,
         -- },
-        ["<leader>aj"] = {
+        ["<leader>rn"] = {
           "o# %%<CR>",
           desc = "New 'cell'",
         },
-        ["<Leader>am"] = {
+        ["<Leader>rm"] = {
           "o# %% [markdown]<CR># ",
           desc = "New Markdown 'cell'",
         },

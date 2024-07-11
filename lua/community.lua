@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.debugging.nvim-bqf" },
   { import = "astrocommunity.editing-support.nvim-treesitter-endwise" },
+  { import = "astrocommunity.code-runner.vim-slime" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.file-explorer.oil-nvim" },
