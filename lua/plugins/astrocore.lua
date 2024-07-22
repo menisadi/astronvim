@@ -50,6 +50,12 @@ return {
         --   desc = "Flash jump",
         --   remap = true,
         -- },
+        ["<Leader>lq"] = {
+          ":!sqlfluff fix %<CR><CR>",
+          desc = "Run SqlFluff on the current buffer.",
+          noremap = true,
+          silent = true,
+        },
         ["<leader>rn"] = {
           "o# %%<CR>",
           desc = "New 'cell'",
