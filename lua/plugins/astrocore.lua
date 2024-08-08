@@ -56,9 +56,17 @@ return {
           noremap = true,
           silent = true,
         },
-        ["<leader>rn"] = {
+        ["<Leader>rn"] = {
           "o# %%<CR>",
           desc = "New 'cell'",
+        },
+        ["<Leader>rj"] = {
+          [[:/^\# %%<CR>j]],
+          desc = "Go to next cell",
+        },
+        ["<Leader>rk"] = {
+          [[:?^\# %%<CR>?^\# %%<CR>j]],
+          desc = "Go to previous cell",
         },
         ["<Leader>rm"] = {
           "o# %% [markdown]<CR># ",

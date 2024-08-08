@@ -10,7 +10,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
-  { import = "astrocommunity.debugging.nvim-bqf" },
+  { import = "astrocommunity.quickfix.nvim-bqf" },
   { import = "astrocommunity.editing-support.nvim-treesitter-endwise" },
   { import = "astrocommunity.code-runner.vim-slime" },
   { import = "astrocommunity.motion.nvim-surround" },
