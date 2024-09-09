@@ -57,7 +57,7 @@ return {
           silent = true,
         },
         ["<Leader>rn"] = {
-          "o# %%<CR>",
+          "o<CR>o# %%<CR>",
           desc = "New 'cell'",
         },
         ["<Leader>rj"] = {
@@ -69,7 +69,7 @@ return {
           desc = "Go to previous cell",
         },
         ["<Leader>rm"] = {
-          "o# %% [markdown]<CR># ",
+          "o<CR>o# %% [markdown]<CR># ",
           desc = "New Markdown 'cell'",
         },
         ["<Leader>Sz"] = {
