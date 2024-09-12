@@ -56,8 +56,14 @@ return {
           noremap = true,
           silent = true,
         },
+        ["<Leader>ra"] = {
+          ":SlimeSend1 %autoindent<CR>",
+          desc = "Toggle autoindent on IPython REPL",
+          noremap = true,
+          silent = true,
+        },
         ["<Leader>rn"] = {
-          "o<CR>o# %%<CR>",
+          "o<CR># %%<CR>",
           desc = "New 'cell'",
         },
         ["<Leader>rj"] = {
@@ -69,7 +75,7 @@ return {
           desc = "Go to previous cell",
         },
         ["<Leader>rm"] = {
-          "o<CR>o# %% [markdown]<CR># ",
+          "o<CR># %% [markdown]<CR># ",
           desc = "New Markdown 'cell'",
         },
         ["<Leader>Sz"] = {
