@@ -22,7 +22,7 @@ return {
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
   { import = "astrocommunity.workflow.hardtime-nvim" },
-  -- { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.icon.mini-icons" },
   -- import/override with your plugins folder
 }
