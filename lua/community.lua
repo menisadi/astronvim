@@ -24,7 +24,7 @@ return {
   { import = "astrocommunity.workflow.hardtime-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.neovim-lua-development.helpview-nvim" },
-  { import = "astrocommunity.utility.noice-nvim" },
+  -- { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.icon.mini-icons" },
   -- import/override with your plugins folder
 }
