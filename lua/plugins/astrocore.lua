@@ -33,7 +33,7 @@ return {
         shiftwidth = 4,
       },
       g = { -- vim.g.<key>
-        python3_host_prog = "/Users/me/.pyenv/versions/nvim/bin/python3",
+        python3_host_prog = "/Users/meni/.pyenv/versions/nvim/bin/python3",
         -- configure global vim variables (vim.g)
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`
         -- This can be found in the `lua/lazy_setup.lua` file
