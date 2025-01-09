@@ -10,4 +10,13 @@ return {
   opts = {
     sticky = false,
   },
+  keys = {
+    { "<leader>pp", "<cmd>TimerStart 35m<cr>", desc = "Start Pomodoro Timer (35m)" },
+    { "<leader>pP", "<cmd>TimerStop<cr>", desc = "End Pomodoro Timer" },
+    { "<leader>pP", "<cmd>TimerStop<cr>", desc = "Stop Pomodoro Timer" },
+    { "<leader>pe", "<cmd>TimerPausecr>", desc = "Pause Pomodoro Timer" },
+    { "<leader>pr", "<cmd>TimerResume<cr>", desc = "Resume Pomodoro Timer" },
+    { "<leader>pw", "<cmd>TimerShow<cr>", desc = "Show Pomodoro Timer" },
+    { "<leader>pq", "<cmd>TimerHide<cr>", desc = "Hide Pomodoro Timer" },
+  },
 }
