@@ -66,11 +66,11 @@ return {
           "o<CR># %%<CR>",
           desc = "New 'cell'",
         },
-        ["<Leader>rj"] = {
+        ["]c"] = {
           [[:/^\# %%<CR>j]],
           desc = "Go to next cell",
         },
-        ["<Leader>rk"] = {
+        ["[c"] = {
           [[:?^\# %%<CR>?^\# %%<CR>j]],
           desc = "Go to previous cell",
         },
