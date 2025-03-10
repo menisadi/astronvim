@@ -26,6 +26,7 @@ return {
   { import = "astrocommunity.neovim-lua-development.helpview-nvim" },
   { import = "astrocommunity.split-and-window.neominimap-nvim" }, -- NOTE: This is just for fun
   { import = "astrocommunity.icon.mini-icons" },
+  -- { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
   -- { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
