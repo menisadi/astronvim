@@ -1,3 +1,0 @@
-# My AstroNvim Configuration
-
-✨✨  („• ֊ •„)੭  ✨✨
