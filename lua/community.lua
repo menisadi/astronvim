@@ -9,6 +9,7 @@ return {
 	{ import = "astrocommunity.pack.python-ruff" },
 	{ import = "astrocommunity.pack.markdown" },
 	{ import = "astrocommunity.pack.yaml" },
+	{ import = "astrocommunity.pack.sql" },
 	{ import = "astrocommunity.colorscheme.kanagawa-nvim" },
 	{ import = "astrocommunity.recipes.heirline-mode-text-statusline" },
 	{ import = "astrocommunity.quickfix.nvim-bqf" },
