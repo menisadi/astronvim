@@ -12,10 +12,16 @@ return {
 				color = "wonder",
 				alt = { "ASK", "WONDER", "QUES", "THINK" },
 			},
+			DEPR = {
+				icon = "󰂭 ",
+				color = "deprecated",
+				alt = { "DEPRECATED", "LEGACY", "REMOVE", "OBSOLETE", "OLD" },
+			},
 		},
 		colors = {
 			wonder = { "#9966CC" },
 			time = { "#9CA3AF" },
+			deprecated = { "#E57373" },
 		},
 	},
 }
