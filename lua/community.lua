@@ -22,6 +22,8 @@ return {
 	{ import = "astrocommunity.motion.flash-nvim" },
 	{ import = "astrocommunity.media.vim-wakatime" },
 	{ import = "astrocommunity.workflow.hardtime-nvim" },
+	{ import = "astrocommunity.completion.copilot-lua-cmp" },
+	{ import = "astrocommunity.editing-support.copilotchat-nvim" },
 	-- { import = "astrocommunity.scrolling.mini-animate" },
 	-- import/override with your plugins folder
 }
