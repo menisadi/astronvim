@@ -28,11 +28,11 @@ return {
             "o<CR># %%<CR>",
             desc = "New 'cell'",
           },
-          ["]c"] = {
+          ["]C"] = {
             [[:/^\# %%<CR>j]],
             desc = "Go to next cell",
           },
-          ["[c"] = {
+          ["[C"] = {
             [[:?^\# %%<CR>?^\# %%<CR>j]],
             desc = "Go to previous cell",
           },
@@ -44,7 +44,13 @@ return {
             function()
               local stats = require("lazy").stats()
               local ms = math.floor(require("lazy").stats().startuptime * 100 + 0.5) / 100
-              local stat_string = "loaded " .. stats.loaded .. "/" .. stats.count .. " plugins in " .. ms .. "ms"
+              local stat_string = "loaded "
+                  .. stats.loaded
+                  .. "/"
+                  .. stats.count
+                  .. " plugins in "
+                  .. ms
+                  .. "ms"
               vim.api.nvim_echo({ { stat_string, "Title" } }, true, {})
             end,
             desc = "Show Lazy loading stats",
