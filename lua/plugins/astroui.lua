@@ -5,9 +5,9 @@
 
 ---@type LazySpec
 return {
-  "AstroNvim/astroui",
-  ---@type AstroUIOpts
-  opts = {
-    colorscheme = "kanagawa",
-  },
+	"AstroNvim/astroui",
+	---@type AstroUIOpts
+	opts = {
+		colorscheme = "kanagawa",
+	},
 }
