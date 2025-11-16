@@ -12,6 +12,7 @@ return {
 	{ import = "astrocommunity.pack.yaml" },
 	{ import = "astrocommunity.pack.sql" },
 	{ import = "astrocommunity.colorscheme.kanagawa-nvim" },
+	{ import = "astrocommunity.recipes.ai" },
 	{ import = "astrocommunity.recipes.heirline-mode-text-statusline" },
 	{ import = "astrocommunity.quickfix.nvim-bqf" },
 	{ import = "astrocommunity.editing-support.nvim-treesitter-endwise" },
