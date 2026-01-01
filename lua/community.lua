@@ -26,6 +26,7 @@ return {
 	{ import = "astrocommunity.completion.copilot-lua-cmp" },
 	{ import = "astrocommunity.editing-support.codecompanion-nvim" },
 	{ import = "astrocommunity.editing-support.copilotchat-nvim" },
+	{ import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
 	-- { import = "astrocommunity.scrolling.mini-animate" },
 	-- import/override with your plugins folder
 }
