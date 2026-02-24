@@ -6,7 +6,9 @@
 return {
 	"AstroNvim/astrocommunity",
 	{ import = "astrocommunity.pack.lua" },
-	{ import = "astrocommunity.pack.python-ruff" },
+	{ import = "astrocommunity.pack.python.base" },
+	{ import = "astrocommunity.pack.python.basedpyright" },
+	{ import = "astrocommunity.pack.python.ruff" },
 	{ import = "astrocommunity.pack.markdown" },
 	{ import = "astrocommunity.pack.bash" },
 	{ import = "astrocommunity.pack.yaml" },
