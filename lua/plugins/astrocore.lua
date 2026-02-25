@@ -8,6 +8,7 @@ return {
 				{
 					event = "OptionSet",
 					pattern = "background",
+					nested = true,
 					desc = "Switch colorscheme when background changes",
 					callback = function()
 						if vim.o.background == "dark" then
