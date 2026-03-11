@@ -20,12 +20,13 @@ return {
       {
         static = {
           n_requests = 0,
-          spinner_index = 0,
-          spinner_symbols = { "⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏" },
+          request_symbol = "⟳",
           done_symbol = "✓",
         },
         init = function(self)
-          if self._cc_autocmds then return end
+          if self._cc_autocmds then
+            return
+          end
           self._cc_autocmds = true
           vim.api.nvim_create_autocmd("User", {
             pattern = "CodeCompanionRequestStarted",
@@ -43,18 +44,20 @@ return {
           })
         end,
         provider = function(self)
-          if not package.loaded["codecompanion"] then return nil end
+          if not package.loaded["codecompanion"] then
+            return nil
+          end
           local symbol
           if self.n_requests > 0 then
-            self.spinner_index = (self.spinner_index % #self.spinner_symbols) + 1
-            symbol = self.spinner_symbols[self.spinner_index]
+            symbol = self.request_symbol
           else
             symbol = self.done_symbol
-            self.spinner_index = 0
           end
           return (" %d %s "):format(self.n_requests, symbol)
         end,
-        hl = function() return status.hl.filetype_color() end,
+        hl = function()
+          return status.hl.filetype_color()
+        end,
       },
       status.component.nav(),
     }
