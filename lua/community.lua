@@ -17,7 +17,6 @@ return {
 	{ import = "astrocommunity.recipes.ai" },
 	{ import = "astrocommunity.recipes.heirline-mode-text-statusline" },
 	{ import = "astrocommunity.quickfix.nvim-bqf" },
-	{ import = "astrocommunity.editing-support.nvim-treesitter-endwise" },
 	{ import = "astrocommunity.code-runner.vim-slime" },
 	{ import = "astrocommunity.motion.nvim-surround" },
 	{ import = "astrocommunity.editing-support.todo-comments-nvim" },
@@ -26,9 +25,9 @@ return {
 	{ import = "astrocommunity.media.vim-wakatime" },
 	{ import = "astrocommunity.workflow.hardtime-nvim" },
 	{ import = "astrocommunity.completion.copilot-lua-cmp" },
-	{ import = "astrocommunity.editing-support.codecompanion-nvim" },
-	{ import = "astrocommunity.editing-support.copilotchat-nvim" },
+	{ import = "astrocommunity.ai.codecompanion-nvim" },
+	{ import = "astrocommunity.ai.copilotchat-nvim" },
 	{ import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+	-- { import = "astrocommunity.git.octo-nvim" },
 	-- { import = "astrocommunity.scrolling.mini-animate" },
-	-- import/override with your plugins folder
 }
