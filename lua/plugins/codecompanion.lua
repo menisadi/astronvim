@@ -6,7 +6,7 @@ return {
 	},
 	opts = {
 		interactions = {
-			chat = { adapter = "copilot" },
+			chat = { adapter = "codex" },
 		},
 		adapters = {
 			acp = {
