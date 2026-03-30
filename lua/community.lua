@@ -26,8 +26,8 @@ return {
 	{ import = "astrocommunity.workflow.hardtime-nvim" },
 	{ import = "astrocommunity.completion.copilot-lua-cmp" },
 	{ import = "astrocommunity.ai.codecompanion-nvim" },
-	{ import = "astrocommunity.ai.copilotchat-nvim" },
 	{ import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+	-- { import = "astrocommunity.ai.copilotchat-nvim" },
 	-- { import = "astrocommunity.git.octo-nvim" },
 	-- { import = "astrocommunity.scrolling.mini-animate" },
 }

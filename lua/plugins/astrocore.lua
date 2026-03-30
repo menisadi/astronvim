@@ -60,28 +60,18 @@ return {
 						local stats = require("lazy").stats()
 						local ms = math.floor(require("lazy").stats().startuptime * 100 + 0.5) / 100
 						local stat_string = "loaded "
-								.. stats.loaded
-								.. "/"
-								.. stats.count
-								.. " plugins in "
-								.. ms
-								.. "ms"
+							.. stats.loaded
+							.. "/"
+							.. stats.count
+							.. " plugins in "
+							.. ms
+							.. "ms"
 						vim.api.nvim_echo({ { stat_string, "Title" } }, true, {})
 					end,
 					desc = "Show Lazy loading stats",
 				},
 			},
-			i = {
-				-- ["<C-K>"] = { function() require("luasnip").expand() end, silent = true },
-				-- ["<C-L>"] = { function() require("luasnip").jump(1) end, silent = true },
-				-- ["<C-J>"] = { function() require("luasnip").jump(-1) end, silent = true },
-				-- ["<C-E>"] = {
-				--   function()
-				--     if require("luasnip").choice_active() then require("luasnip").change_choice(1) end
-				--   end,
-				--   silent = true,
-				-- },
-			},
+			i = {},
 			x = {},
 			o = {},
 			t = {},
