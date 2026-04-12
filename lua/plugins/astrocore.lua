@@ -4,6 +4,13 @@ return {
 	---@type AstroCoreOpts
 	opts = {
 		autocmds = {
+			slime_cells = {
+				{
+					event = "FileType",
+					pattern = "python",
+					callback = function(args) vim.b[args.buf].slime_cell_delimiter = "# %%" end,
+				},
+			},
 			colorscheme_background = {
 				{
 					event = "OptionSet",
