@@ -21,13 +21,10 @@ return {
 	{ import = "astrocommunity.editing-support.todo-comments-nvim" },
 	{ import = "astrocommunity.file-explorer.oil-nvim" },
 	{ import = "astrocommunity.motion.flash-nvim" },
-	{ import = "astrocommunity.media.vim-wakatime" },
 	{ import = "astrocommunity.workflow.hardtime-nvim" },
 	{ import = "astrocommunity.completion.copilot-lua-cmp" },
 	{ import = "astrocommunity.ai.codecompanion-nvim" },
 	{ import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
-	-- { import = "astrocommunity.utility.noice-nvim" },
-	-- { import = "astrocommunity.ai.copilotchat-nvim" },
 	-- { import = "astrocommunity.git.octo-nvim" },
 	-- { import = "astrocommunity.scrolling.mini-animate" },
 }
